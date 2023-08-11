@@ -1,0 +1,68 @@
+body{
+    
+    background-color: #080708;
+    color:#FF88DC;
+}
+@font-face {
+    font-family: 'kongtextregular';
+    src: url('Fonts/kongtext.woff2') format('woff2'),
+         url('Fonts/kongtext.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.navTextSize{
+        font-size:100%
+    }
+ .navTextSizeBrand{
+        font-size:200%
+    }
+
+.button {
+  background-color: red;
+  border: none;
+  color: black;
+  display: flex;
+  font-size: 16px;
+  margin: 4px 2px;
+  width:100px;
+  height:100px;
+  
+}
+.content{
+    text-align: center;
+    color:#FAFF7F;
+    font-size: 200%;
+    font-family: 'kongtextregular';
+    margin-left: 10%;
+    margin-right:10%;
+    
+}
+.subHead{
+    
+    text-align: center;
+    color:#FF5154;
+    font-family: 'kongtextregular';
+    font-size: 50px;
+    
+    margin-top: 2%
+    
+}
+.header{
+     font-size: 80px;
+    font-family: 'kongtextregular';
+    text-align: center;
+}
+.main{
+    
+    float:right;
+    width:40%;
+    margin-right: 30%;
+    font-size: 80;
+    background-color: black;
+}
+.imageContent{
+  display:block;
+  margin-right:auto;
+  margin-left:auto;
+  width:50%;
+}
